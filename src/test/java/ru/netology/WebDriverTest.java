@@ -34,11 +34,7 @@ public class WebDriverTest {
         driver = new ChromeDriver();//(options);
     }
 
-    //    @BeforeAll
-//    public static void setupClass() {
-//        System.setProperty("webdriver.chrome.driver", "./Drivers/win/chromedriver.exe");
-//        // WebDriver.chromedriver().setup();
-//    }
+
     @BeforeAll
     static void setUpAll() {
         WebDriverManager.chromedriver().setup();
